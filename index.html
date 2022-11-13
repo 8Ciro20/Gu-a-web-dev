@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico">
+        <title>Ciro's Guide</title>
+        </head>
+        <body>
+            <h1>Tutorial de HTML</h1>
+            <div>
+            <hr>
+            <p><em>Otros tutoriales</em></p>
+            <nav>
+            <a href="css.html"><button>CSS</button></a>
+            <a href="js.html"><button>Java Script</button></a>
+        </nav>
+            <hr>
+        </div>
+        <div>
+            <h2>¿Como se escribe HTML?</h2>
+                <p>Todo se basa en poner etiquetas, se abren "<" y se cierran con ">".</p>
+                <p>Tambien estan las etiquetas de cierre que sirven para terminar el comando de la etiqueta que se abrió posteriormente, se abren con "< / " y se cierran con ">" <br>(algunas etiquetas no necesitan etiqueta de cierre)</p>
+            
+            <hr>
+        </div>
+        <div>
+            <h2>Empecemos por lo basico</h2>
+            <p>Se empieza en el editor de codigo con la siguiente etiqueta " doctype! html ", esto para que el navegador con el que abrimos la pagina o documento sepa qué lenguaje tiene que interpretar.</p>
+            <p>Despues se usa la etiqueta html y se empieza a programar.</p>
+            
+            <p>head Para la informacion que se le da al navegador de la pagina, dentro de esta etiqueta incluimos el titulos con la etiqueta title la cual es lo que se mostrara en la pestaña del navegador.</p>
+            <p>body Para escribir escribir toda la informacion de la pagina.</p>
+            
+            <h3>Tipos de letra con h seguido de un numero, usualmente son titulos porque resaltan.</h3>
+            
+            <strong>strong Negrita </strong>
+            hr es una linea y br es para cambiar de linea o renglón
+
+            <em> em Cursiva </em>
+            
+            <p>p Para escribir un parrafo, este tomara un espacio al escribir esta etiqueta. </p>
+            <hr> 
+        </div>
+        <div>
+            <h2>¿Como se ponen botones?</h2>
+            <p>Ponemos botones con button, tambien
+                dentro de los botones se puede
+                aplicar estilo a el texto y 
+            se pueden cambiar de linea con br</p>
+            <button>Sin</button>
+            
+            <button><em><strong>Con</strong></em></button>
+            <br>
+            <button>Espaciado</button>
+        </div>
+<div>
+            <hr>
+            <h2>¿Como hago que los botones funcionen?</h2>
+            <h3>Empecemos conociendo como poner enlaces</h3>
+            <p>Para poner links se empieza con a para anclar el texto, despues se agrega href="" , la primera a se cierra despues de poner el atributo href y dentro de esto el link para dar un link a el texto anclado y se cierra. 
+            <a href="https://imgur.com/a/q61x0rg">ejemplo</a> </p>
+            
+            <p>Tambien aplicable a botones con button en vez de texto dentro de la etiqueta a==> <a href="https://soundcloud.com/danksoundsbruh/spongebob-trap-remix-ear-rape-edition?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><button>No presionar </button></a> </p>
+        </div>
+        <div>
+        <hr>
+        <h2>¿Como se ponen imagenes?</h2>
+        <p>Para poner imagenes se usa la etiqueta img, la cual no hay que cerrar, para poner una url con imagen se usa el atributo src.</p>
+        <img src="https://i.imgur.com/OJBATXe.png" width="200" height="200">
+        <p>Para cambiar el tamaño de la imagen usamos los atributos width para el ancho y height para la altura seguido de igual y comillas dentro de las cuales pondremos el tamaño en pixeles</p>
+        
+        <img src="https://i.imgur.com/ZGXAh2G.png" width="100" height="100">
+        <br>
+        <p>Si las imagenes no estan en linea solamente se escribe donde iría el link la direccion en la que se encuentra el archivo de la imagen en un dispositivo local.</p>
+    </div>
+    <div>
+        <hr>
+        <h2>¿Como se crean entradas de texto para los usuarios de la pagina?</h2>
+            <p>Para poner cuadros rellenables usamos la etiqueta input</p>
+            <input>
+            <br>
+            <p>Tambien para indicar que poner en este se le indica dentro de la etiqueta con el atributo placeholder.</p>
+            <input placeholder="Nombre">
+            <br>
+            <p>Tambien con el atributo type se pueden especificar funciones de la informacion, por ejemplo para contraseñas dentro del atributo se escribe password y esto ocultara el texto.</p> 
+            <input placeholder="Contraseña" type="password">
+            <p>Con text dentro del atributo no se ocultara el texto, esto es lo mismo que no especificar nada en el atributo.</p>
+            <input type="text">
+            <p>Hay mas opciones para el atributo type, pero los mas importantes son los dos mencionados anteriormente, range para poner una barra desplazable.<br><input placeholder="brillo" type="range"><br>checkbox Para una caja seleccionable.<br><input type="checkbox"><br> date Para un selector de fechas.<br><input type="date"><br> Y color para un selector de colores.<br><input type="color"><br></p>
+        </div>
+        <div>   
+        <hr> 
+        <h2>¿Como ordeno mi codigo?</h2>  
+<p>Para crear grupos o contenedores de elementos para posteriormente organizarlos o dar estilo a esto en la pagina se utiliza la etiqueta div .</p>
+</div>       
+<div>
+<hr>
+<h2>¿Como creo listas sin necesidad de poner las viñetas manualmente?</h2>
+        <p>Para crear listas ordenadas se usa la etiqueta ol, dentro de esta otra etiqueta: li y dentro de esta el objeto que queremos ordenar el primero que pongamos sera tambien el primero en la lista.</p>
+        <ol><li>Perros </li><li>Gatos </li></ol>
+        <p>Para crear listas desordenadas se usa la etiqueta ul, tambien se rellena con li.</p>
+        <ul><li>Podcasts</li><li>Audiolibros</li></ul>
+        <p>Las listas tambien pueden tener links e imagenes dentro para hacerlo hay que poner un link dentro de la etiqueta li.</p>
+        <ul><li><img src="https://i.imgur.com/XiQ5sS6.png" height="100" width="100">Si</li>
+        <li><img src="https://i.imgur.com/OJDE7RQ.png" height="100" width="100">No</li></ul>
+        <p>Tambien pueden haber listas dentro de una lista.</p>
+        <ol><li>Calistenia<ul><li>flexiones</li><li>sentadillas</li></ul></li><li>Gym<ul><li>no se</li><li>no voy</li></ul></li></ol>
+    </div>
+    <div>
+        <hr>
+        <h2>¿Como se agrego otra pagina a mi sito web?</h2>
+<p>Para crear subpaginas para nuestro sitio usamos los links pero en vez de poner un link que esté en linea ponemos el nombre del otro archivo otro archivo .html que esté en la misma carpeta de la pagina principal que casi siempre se llamará "index.html" </p>
+<a href="si.html"><button>Si</button></a>
+</div>
+<div>       
+<hr>
+<h2>¿Como hago formularios?</h2>
+        <p>Para crear formularios se usa la etiqueta form y para que funcione dentro hay que poner las etiquetas de input y button.</p>
+    
+         <p>Esto se usa por ejemplo para un menu de inicio de sesion.</p>
+         <form>
+            Usuario: <input type="text">
+            <br>
+            Contraseña: <input type="password"><br>
+            <button>Iniciar sesion</button>
+           </form>
+           <p>Si usamos la etiquta fielset, esta agrupará varios inputs. </p>
+           <form>
+           <fieldset>
+            Usuario: <input type="text">
+            <br>
+            Contraseña: <input type="password"><br>
+            </fieldset>
+            <button>Iniciar sesion</button>
+            </form>
+            <p>Si ponemos la etiqueta legend dentro de una fieldset, esta pondra un nombre a la agrupacion. </p>
+            <form>
+            <fieldset>
+                <legend>Iniciar sesion</legend>
+                Usuario: <input type="text">
+                <br>
+                Contraseña: <input type="password"><br>
+                </fieldset>
+                <button>Iniciar sesion</button>
+            </form>
+<p>En los formularios para indicar al navegador que va dentro de un input usamos la etiqueta label </p>
+<form>
+    <label>Usuario:</label> <input type="text">
+    <br>
+<label>Contraseña:</label> <input type="password"><br>
+    <button>Iniciar sesion</button>
+   </form>
+   <p>Para enlazar entre el elemento de input y el elemento de label se utiliza el atributo for en el label y dentro de este atributo hay que poner el nombre del id que se le dio al input posteriormente.
+    Esto ayuda a la accesibilidad de la pagina ya que los lectores de texto en pantalla lo leeran.
+   </p>
+   <form>
+    <label for="usuario">Usuario:</label> <input id="usuario" type="text">
+    <br>
+<label for="password">Contraseña:</label> <input id="password" type="password"><br>
+        </form>
+   
+</div>
+<div>   
+<hr>
+<h2>¿Como hago mi codigo mas legible?</h2>
+   
+<p> Podemos indicar una fecha usando la etiqueta date, esto no cambiara el texto pero nos ayudara a saber qué tenemos escrito.</p>
+<date>Enero 1</date>
+<p>Para indicar una direccion usamos la etiqueta address, esto cambiara el tipo de letra a italic</p>
+<address>Casa 1 Avenida 88</address>
+<p>Para indicar que estamos escribiendo una abreviatura usamos la etiqueta abbr, esto no cambia el texto pero nos sirve para saber que estamos codificando. <br><br>
+Colombia <abbr>CO</abbr></p>
+
+   </div>
+   
+   <div>
+    <hr>
+    <h2>¿Como se ordena el codigo según la estructura de la pagina?</h2>
+    <p>Las siguientes etiquetas se utilizan para ordenar nuestro codigo por secciones de la pagina.</p>
+    <img src="https://i.imgur.com/gOrrcqA.png" width="300" height="300">  
+<p>Estas etiquetas hacen lo mismo que un div, son contenedores de informacion pero se usan para organizar nuestro codigo.</p>
+<ul><li>header Se utiliza para la parte superior de la pagina.</li>
+<li>Con nav especificamos links o botones que nos llevan a otras paginas del sito web.</li>
+<li>Section se utiliza para indicar una seccion o tema en nuestra pagina.</li>
+<li>footer se utiliza para indicar la parte inferior de la pagina.</li>
+<li>Con la etiqueta main especificamos contenido particular de la pagina.</li></ul>
+
+</div>
+<div>   
+<hr>
+<h2>Hay elementos semanaticos que cambian el aspecto de nuesta pagina?</h2>
+<p>Si, por ejemplo la etiqueta details que se usa para indicar una descripcion larga </p>
+<em>Click en detalles</em>
+<details>Se consigue un desplegable, casi siempre se utiliza para dar los detalles de un producto o algo similar.</details>
+<p>Para cambiar el titulo del desplegable usamos la etiqueta summary dentro de la etiqueta details</p>
+<details>
+    <summary>Listado de especificaciones</summary>
+    2 ram, intel atom
+</details>
+<p>Tambien podemos agrupar una imagen con la etiqueta figure para darle nombre o escribir algo relacionado con la imagen</p>
+<figure>
+    <img src="https://i.imgur.com/3JQHBGe.png">
+    <p>Jugador de lol</p>
+</figure>
+<p>Para que el texto este justo debajo de la imagen en vez de la etiqueta p usamos la etiqueta figcaption .</p>
+<figure>
+    <img src="https://i.imgur.com/RKchYn7.jpeg">
+    <figcaption>Jugador de cualquier otro juego</figcaption>
+</figure>
+
+</div>
+   <hr>
+   <h2>¿Como dar más accesibilidad a nuestra pagina?</h2>
+   <p>Con el atributo alt dentro de la etiqueta img podemos dar detalles al narrador en pantalla para que describa la imagen cuando esta no se puede cargar.</p>
+   <p>Con el atributo lang dentro de la etiqueta html le decimos al navegardor en que lenguaje está la pagina, esto ayuda al lector en pantalla y a la visualizacion de algunos caracteres especiales de un idioma como la ñ en el español.</p>
+   <p>Con el atributo role en contenedores como div damos informacion al navegador de estos contenedores, si ponemos dentro de role banner esto le indicará al lector en pantalla que es el encabezado de la pagina. </p>
+   <p>Si ponemos dentro del atributo role esto ayudara al lector en pantalla a saber que hay imagenes dentro de ese contenedor.</p>
+   <p>Con el rol comment dentro del atributo role le indicamos al lector que el texto en el contenedor es un comentario.</p>
+   <p>Escribiendo el rol contentinfo indicamos al lector que es informacion del pie de la pagina, como derechos de autor, contacto, etc.</p>
+   <p>Usando el rol alert indicamos al lector de algun cambio o evento en la pagina por ejemplo "tu sesion expira en 10 segundos"</p>
+   <p>Para hacer que el lector no lea un parrafo se utiliza el atributo aria-hidden dentro de la etiqueta p .</p>
+   
+   
+   
+   
+   
+   
+   
+   <hr>
+        <footer>
+          <em>E CIRO 2022 ©</em>
+        </footer> 
+        </body>        
+</html>
