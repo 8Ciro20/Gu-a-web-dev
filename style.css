@@ -1,5 +1,46 @@
 .hola { font-family:'Franklin Gothic Medium';
     color:lightseagreen;
 font-size: 20px;
+}
 
+.lilnastactico {
+    width: 150px;
+    height: 75px;
+}
+
+.alto {
+height: 75px;
+background-color: aquamarine
+}
+
+.ancho {
+width: 150px;
+background-color:bisque
+}
+
+.borde {
+    border: solid  blue ;
+}
+
+.bordetuneado {
+border: solid 10px;
+border-color: violet;
+}
+
+.esquinatuneada {
+    border: solid 10px;
+border-color: mediumseagreen;
+border-radius: 15px;
+}
+
+.imagenborde {
+    border: solid 5px;
+border-color: red;
+border-radius: 15px;
+}
+
+.elfin {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
