@@ -44,3 +44,35 @@ border-radius: 15px;
     width: 100px;
     border-radius: 50px;
 }
+
+.relleno {
+    padding: 50px;
+    border: solid 5px;
+    background-color: rgb(184, 130, 235);
+}
+
+.rellenoderecha {
+    padding-left: 50px;
+    background-color: rgb(184, 130, 235) ;
+    border:solid black 5px;
+  
+}
+
+.rellenoarriba {
+    padding-top: 50px;
+    border:solid 5px;
+    background-color: rgb(184, 130, 235);
+}
+
+.textocentro {
+    text-align: center;
+    border:solid 5px;
+    background-color: rgb(235, 130, 226);
+}
+
+.margen{
+    margin: 50px;
+    padding: 50px;
+    border: solid 5px;
+    background-color: rgb(184, 130, 235);
+}
