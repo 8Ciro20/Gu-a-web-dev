@@ -64,6 +64,13 @@ border-radius: 15px;
     background-color: rgb(184, 130, 235);
 }
 
+.rellenoenunalinea{
+    padding: 10px 20px 30px 40px;
+    border: solid 5px;
+    background-color:rgb(184, 130, 235) ;
+   
+   }
+
 .textocentro {
     text-align: center;
     border:solid 5px;
@@ -76,3 +83,24 @@ border-radius: 15px;
     border: solid 5px;
     background-color: rgb(184, 130, 235);
 }
+
+.concuerdo{
+  border-radius: 0 55px 0 55px ;
+  width: 200px;
+  height: 200px;
+    
+}
+
+.concuerdo2{
+    border-radius: 55px 0 55px 0 ;
+    width: 200px;
+    height: 200px;
+      
+  }
+
+  .concuerdo3{
+    border-radius: 150px 0 0 0 ;
+    width: 200px;
+    height: 200px;
+      
+  }
